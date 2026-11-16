@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "label": "支教知识视频工坊",
+    "description": "用台本生成分镜初稿，在画布上改文字/字幕/样式，导出 1080p30 MP4"
+  },
+  "panel": {
+    "title": "支教知识视频工坊",
+    "newProject": "新建工程",
+    "importScript": "台本 → 初稿",
+    "export": "导出 MP4",
+    "scenes": "场景",
+    "scene": "场景",
+    "style": "外观",
+    "subtitle": "字幕",
+    "audio": "音频",
+    "play": "播放",
+    "pause": "暂停",
+    "restart": "回到开头",
+    "selectFolder": "选择文件夹",
+    "saving": "保存中…",
+    "saved": "已保存",
+    "saveFailed": "保存失败",
+    "empty": "还没有视频工程",
+    "emptyHint": "新建一个工程后，可以导入台本让模型生成初稿，也可以自己从零写场景。"
+  },
+  "export": {
+    "title": "导出 MP4",
+    "start": "开始导出",
+    "working": "导出中…",
+    "download": "下载 MP4",
+    "done": "导出完成"
+  },
+  "script": {
+    "title": "台本 → 分镜初稿",
+    "generate": "生成初稿",
+    "generating": "生成中…",
+    "importFile": "导入台本文件",
+    "model": "模型"
+  }
+}

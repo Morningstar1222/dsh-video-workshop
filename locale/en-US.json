@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "label": "Teaching Video Workshop",
+    "description": "Draft a storyboard from a script, edit text/subtitles/styles on canvas, export 1080p30 MP4"
+  },
+  "panel": {
+    "title": "Teaching Video Workshop",
+    "newProject": "New project",
+    "importScript": "Script → draft",
+    "export": "Export MP4",
+    "scenes": "Scenes",
+    "scene": "Scene",
+    "style": "Look",
+    "subtitle": "Subtitles",
+    "audio": "Audio",
+    "play": "Play",
+    "pause": "Pause",
+    "restart": "Restart",
+    "selectFolder": "Choose folder",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "saveFailed": "Save failed",
+    "empty": "No video project yet",
+    "emptyHint": "Create a project, then import a script to draft scenes with the model, or write scenes yourself."
+  },
+  "export": {
+    "title": "Export MP4",
+    "start": "Start export",
+    "working": "Exporting…",
+    "download": "Download MP4",
+    "done": "Export finished"
+  },
+  "script": {
+    "title": "Script → storyboard draft",
+    "generate": "Generate draft",
+    "generating": "Generating…",
+    "importFile": "Import script file",
+    "model": "Model"
+  }
+}

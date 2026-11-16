@@ -1,0 +1,33 @@
+{
+  "name": "@local/dsh-video-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "支教知识视频工坊：把台本变成可逐帧可视编辑的代码讲解视频，导出 1080p30 mp4。",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "icon.svg",
+    "lib",
+    "locale"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  }
+}
